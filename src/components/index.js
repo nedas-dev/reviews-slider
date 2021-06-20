@@ -1,0 +1,1 @@
+export { default as SliderMenu } from './SliderMenu/SliderMenu';
