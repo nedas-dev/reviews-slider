@@ -61,9 +61,7 @@ function SliderMenu(props) {
         <>
             <SliderMenuContainer>
                 <SliderMenuHeader><strong>/</strong> Reviews</SliderMenuHeader>
-                <SliderMenuLeftSlider onClick={() => {
-                    handleClick('previous')
-                }} />
+                <SliderMenuLeftSlider onClick={() => handleClick('previous')} />
                 <Wrapper>
                     {profiles.map((person, index) => {
                         return (
